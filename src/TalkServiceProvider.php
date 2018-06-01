@@ -25,7 +25,7 @@ class TalkServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        /*$this->registerBroadcast();*/
+        $this->registerBroadcast();
         $this->registerTalk();
     }
     /**

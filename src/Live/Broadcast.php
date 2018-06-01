@@ -2,14 +2,14 @@
 
 namespace Nahid\Talk\Live;
 
-use Illuminate\Foundation\Bus\DispatchesJobs;
+/*use Illuminate\Foundation\Bus\DispatchesJobs;*/
 use Illuminate\Contracts\Config\Repository;
 use Nahid\Talk\Messages\Message;
 use Pusher\Pusher;
 
 class Broadcast
 {
-    use DispatchesJobs;
+    /*use DispatchesJobs;*/
 
     /*
      * Constant for talk config prefix
